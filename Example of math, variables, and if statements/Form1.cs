@@ -25,6 +25,8 @@ namespace Example_of_math_variables_and_if_statements
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             x = this.textBox1.Text;
+
+
             y = this.textBox2.Text;
             if (x == "") //This sees if x has no value
             {
